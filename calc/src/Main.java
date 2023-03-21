@@ -105,11 +105,14 @@ public class Main {
                    case 4:
                        res+=(romanNumbers.get(10));
                        res+=(romanNumbers.get(11));
+                       break;
                    case 9:
                        res+=(romanNumbers.get(10));
                        res+=(romanNumbers.get(12));
+                       break;
                    case 10:
                        res+=(romanNumbers.get(12));
+                       break;
                }
                if (temp >= 5 && temp < 9){
                    res+=(romanNumbers.get(11));
